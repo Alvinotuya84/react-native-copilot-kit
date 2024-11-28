@@ -41,6 +41,7 @@ __metadata:
     "@evilmartians/lefthook": ^1.5.0
     "@react-native/eslint-config": ^0.73.1
     "@release-it/conventional-changelog": ^9.0.2
+    "@testing-library/react-native": ^12.9.0
     "@types/jest": ^29.5.5
     "@types/react": ^18.2.44
     commitlint: ^17.0.2
@@ -3237,6 +3238,25 @@ __metadata:
   dependencies:
     "@sinonjs/commons": ^3.0.0
   checksum: 614d30cb4d5201550c940945d44c9e0b6d64a888ff2cd5b357f95ad6721070d6b8839cd10e15b76bf5e14af0bcc1d8f9ec00d49a46318f1f669a4bec1d7f3148
+  languageName: node
+  linkType: hard
+
+"@testing-library/react-native@npm:^12.9.0":
+  version: 12.9.0
+  resolution: "@testing-library/react-native@npm:12.9.0"
+  dependencies:
+    jest-matcher-utils: ^29.7.0
+    pretty-format: ^29.7.0
+    redent: ^3.0.0
+  peerDependencies:
+    jest: ">=28.0.0"
+    react: ">=16.8.0"
+    react-native: ">=0.59"
+    react-test-renderer: ">=16.8.0"
+  peerDependenciesMeta:
+    jest:
+      optional: true
+  checksum: 88115b22c127f39b2e1e8098dc1c93ea9c7393800a24f4f380bed64425cc685f98cad5b56b9cb48d85f0dbed1f0f208d0de44137c6e789c98161ff2715f70646
   languageName: node
   linkType: hard
 
