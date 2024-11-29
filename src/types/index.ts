@@ -36,3 +36,15 @@ export interface ChatContainerProps {
   inputProps?: Partial<ChatInputProps>;
   messageProps?: Partial<ChatMessageProps>;
 }
+
+export interface CopilotContextState {
+  messages: CopilotMessage[];
+  isLoading: boolean;
+  error: Error | null;
+}
+
+export interface CopilotContextValue extends CopilotContextState {
+  sendMessage: (content: string) => Promise<void>;
+  resetChat: () => void;
+  setError: (error: Error | null) => void;
+}
